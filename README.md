@@ -1,2 +1,2 @@
 # Twisted-BN-Gr
-plasmon and interband transition
+First principle calculations of plasmons and interband transitions.
