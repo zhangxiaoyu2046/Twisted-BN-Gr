@@ -1,1 +1,5 @@
 With mismatch = 1.8%.
+Data format:
+column 1: energy (eV)
+column 2: h-BN PDOS
+column 3: Gr PDOS
