@@ -1,2 +1,2 @@
-For large supercells, the elelctronic minimization algorithm is chosen to be blocked Davidson iteration scheme (ALGO = Normal).
-This parameter has been tested against ALGO = Exact, and their IPA spectra are the same at 0°. We thus think this parameter is capable to produce reliable results, while saving a lots of computational resources. 
+For large supercells, the electronic minimization algorithm is chosen to be blocked Davidson iteration scheme (ALGO = Normal).
+This parameter has been tested against ALGO = Exact, and their IPA spectra are the same at 0°. We thus think this parameter produces reliable results, while saving lots of computational resources. 
