@@ -1,0 +1,45 @@
+# basic parameters and parallel calculation #
+  SYSTEM = BN on gr
+  ICHARG = 11
+  ISTART = 1
+  NCORE  = 6
+# NPAR   = 16
+
+# parameters related with sc-calculation for electron #
+  ENCUT  = 750
+  PREC   = Accurate
+  EDIFF  = 1E-6
+#  ALGO   = Fast
+  ISMEAR = 0
+  SIGMA  = 0.02
+  NELMIN = 10
+  NELM   = 100
+# LREAL  = .T.           # For calculation of phonon dispersion, .F. should be set
+#     GGA = PS
+#  SYMPREC = 1E-3
+
+
+# parameters related with ions relaxation #
+#  IBRION = 2
+#  ISIF   = 3 
+#  EDIFFG = -0.01           # negative number means force
+#  NSW    = 120
+
+# parameters related with output #
+  LCHARG = .F.         # For relaxation of large system, .T. should be set to save time
+  LWAVE  = .F.
+  NBANDS = 85  
+
+# parameters related with magnetism #
+# ISPIN  = 2            # 2 = yes
+# MAGMOM = 
+
+# parameters related with DOS and PDOS #
+# NEDOS   = 5000
+ LORBIT  = 11
+
+# parameters related with phonon dispersion #
+# ADDGRID = .T.
+
+# parameters related with vdW correction #
+ IVDW    = 11            # 11 for D3 correction(only when PBE employed)
